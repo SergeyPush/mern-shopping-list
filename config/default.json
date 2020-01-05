@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://sergey:sergey123@cluster0-a93by.azure.mongodb.net/shopping?retryWrites=true&w=majority",
+  "jwtSecret": "sl_myJwtSecret"
+}

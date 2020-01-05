@@ -1,0 +1,28 @@
+GET http://localhost:9000/api/items
+###
+POST http://localhost:9000/api/items
+Content-Type: application/json
+
+{
+    "name":"something else"
+}
+###
+DELETE http://localhost:9000/api/items/5e0e510bf6bd092350791938
+
+###
+POST http://localhost:9000/api/users
+Content-Type: application/json
+
+{
+    "name":"John",
+    "email":"j3@mail.com",
+    "password":"12345678"
+}
+###
+POST http://localhost:9000/api/auth
+Content-Type: application/json
+
+{
+    "email":"j3@mail.com",
+    "password":"12345678"
+}
